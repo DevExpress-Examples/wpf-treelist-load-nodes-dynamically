@@ -1,0 +1,19 @@
+﻿<Window x:Class="DynamicNodeLoading.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+    <Grid>
+        <dxg:GridControl Name="grid">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Name" />
+                <dxg:GridColumn FieldName="ItemType" />
+                <dxg:GridColumn FieldName="Size" />
+                <dxg:GridColumn FieldName="FullName" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TreeListView Name="treeListView1" AutoWidth="True"
+                                  NodeExpanding="treeListView1_NodeExpanding"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</Window>
