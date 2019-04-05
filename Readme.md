@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DynamicNodeLoading/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DynamicNodeLoading/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DynamicNodeLoading/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DynamicNodeLoading/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DynamicNodeLoading/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DynamicNodeLoading/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to: Dynamically Load Nodes
