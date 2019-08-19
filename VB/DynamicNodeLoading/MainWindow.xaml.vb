@@ -143,11 +143,11 @@ Namespace DynamicNodeLoading
 	End Class
 
 	Public Class FileSystemItem
-		Public Sub New(ByVal name As String, ByVal type As String, ByVal size As String, ByVal fullName As String)
-			Name = name
-			ItemType = type
-			Size = size
-			FullName = fullName
+		Public Sub New(ByVal item_name As String, ByVal item_type As String, ByVal item_size As String, ByVal item_fullName As String)
+			Name = item_name
+			ItemType = item_type
+			Size = item_sizesize
+			FullName = item_fullName
 		End Sub
 		Private privateName As String
 		Public Property Name() As String
