@@ -146,7 +146,7 @@ Namespace DynamicNodeLoading
 		Public Sub New(ByVal item_name As String, ByVal item_type As String, ByVal item_size As String, ByVal item_fullName As String)
 			Name = item_name
 			ItemType = item_type
-			Size = item_sizesize
+			Size = item_size
 			FullName = item_fullName
 		End Sub
 		Private privateName As String
