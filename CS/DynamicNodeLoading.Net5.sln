@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicNodeLoading", "DynamicNodeLoading\DynamicNodeLoading.csproj", "{0EE1FC75-C490-45C4-9A57-5D9C099D8762}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicNodeLoading", "DynamicNodeLoading\DynamicNodeLoading.Net5.csproj", "{0EE1FC75-C490-45C4-9A57-5D9C099D8762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
