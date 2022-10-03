@@ -3,17 +3,24 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3109)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WPF Tree List - Load Nodes Dynamically
+
+In this example, the [TreeListView](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView) displays the file/folder tree. The [TreeListView.NodeExpanding](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.NodeExpanding) event allows you to create child nodes dynamically when a user expands a parent node.
+
+## Files to Review
 
 * [MainWindow.xaml](./CS/DynamicNodeLoading/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DynamicNodeLoading/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DynamicNodeLoading/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DynamicNodeLoading/MainWindow.xaml.vb))
-<!-- default file list end -->
-# How to: Dynamically Load Nodes
 
+## Documentation
 
-<p>In this demo, the TreeListView displays the file/folder tree. Child nodes that correspond to sub folders or files contained within a folder are dynamically created when a parent node is being expanded.</p>
+* [Unbound Mode](https://docs.devexpress.com/WPF/9567/controls-and-libraries/data-grid/display-hierarchical-data/unbound-mode)
+* [TreeListView.NodeExpanding](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.NodeExpanding)
+* [Expand and Collapse Nodes](https://docs.devexpress.com/WPF/9569/controls-and-libraries/data-grid/grid-view-data-layout/nodes/expand-and-collapse-nodes)
 
-<br/>
+## More Examples
 
-
+* [WPF Tree List - Create an Unbound Tree](https://github.com/DevExpress-Examples/wpf-treelist-create-unbound-tree)
+* [WPF Tree List - Bind to Self-Referential Data](https://github.com/DevExpress-Examples/wpf-treelist-bind-to-self-referential-data)
+* [WPF Tree List - Use the Child Nodes Selector to Display Hierarchical Data](https://github.com/DevExpress-Examples/wpf-treelist-use-child-nodes-selector-to-display-hierarchical-data)
