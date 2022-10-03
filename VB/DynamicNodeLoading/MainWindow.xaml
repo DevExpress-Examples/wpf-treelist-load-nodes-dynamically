@@ -12,7 +12,7 @@
             </dxg:GridControl.Columns>
             <dxg:GridControl.View>
                 <dxg:TreeListView Name="treeListView1" AutoWidth="True"
-                                  NodeExpanding="treeListView1_NodeExpanding" />
+                                  NodeExpanding="treeListView1_NodeExpanding"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
     </Grid>
